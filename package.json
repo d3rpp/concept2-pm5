@@ -2,9 +2,9 @@
 	"name": "concept2-pm5",
 	"version": "0.0.1",
 	"description": "A simple tool to interract with a concept2 PM5 erg over bluetooth low energy",
-	"main": "index.js",
+	"main": "index",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "tsc"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +24,6 @@
 	},
 	"homepage": "https://github.com/d3rpp/concept2-pm5#readme",
 	"devDependencies": {
-		"tsc-watch": "^4.5.0",
 		"typescript": "^4.4.4"
 	}
 }
