@@ -1,8 +1,12 @@
 {
 	"name": "concept2-pm5",
-	"version": "0.0.1",
+	"version": "0.0.12",
 	"description": "A simple tool to interract with a concept2 PM5 erg over bluetooth low energy",
-	"main": "index",
+	"main": "lib/index.js",
+	"typings": "lib/index",
+	"files": [
+		"lib/"
+	],
 	"scripts": {
 		"build": "tsc"
 	},
