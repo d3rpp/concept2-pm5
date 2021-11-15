@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
-		"target": "es5",
+		"target": "es2015",
 		"module": "commonjs",
+		"types": ["@types/web-bluetooth"],
 		"declaration": true,
 		"outDir": "lib/",
 		"rootDir": "src",

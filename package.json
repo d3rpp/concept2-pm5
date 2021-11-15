@@ -8,7 +8,8 @@
 		"lib/"
 	],
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepare": "npm run build"
 	},
 	"repository": {
 		"type": "git",
@@ -28,6 +29,7 @@
 	},
 	"homepage": "https://github.com/d3rpp/concept2-pm5#readme",
 	"devDependencies": {
+		"@types/web-bluetooth": "^0.0.11",
 		"typescript": "^4.4.4"
 	}
 }
